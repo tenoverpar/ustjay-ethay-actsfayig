@@ -27,7 +27,7 @@ def home():
     """Home function"""
     fact = get_fact()
 
-    r = requests.post("http://hidden-journey-62459.herokuapp.com/piglatinize/",
+    r = requests.post("http://immense-citadel-14563.herokuapp.com/piglatinize/",
                       allow_redirects=False,
                       data={'input_text': fact})
 
